@@ -1,0 +1,272 @@
+body {
+    display: flex;
+    margin: 0;
+    flex-direction: row;
+}
+
+.logo {
+    width: 20px;
+    height: 20px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    width: 33vw;
+    background-image: url(image/fond_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    height: auto;
+
+}
+
+.tete {
+    height: 50%;
+}
+
+.photo_ {
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    margin-top: 10px;
+}
+
+#photo_cv {
+    width: auto;
+    height: auto;
+    overflow: auto;
+    border-radius: 50%;
+}
+
+.debut {
+    height: 30%;
+    text-align: center;
+}
+
+.about_me {
+    display: flex;
+    flex-direction: row;
+    height: auto;
+}
+
+.group {
+    display: flex;
+    margin-left: 10px;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 50%;
+}
+
+.presentation {
+    text-align: center;
+    margin-right: 10px;
+}
+
+.presentation {
+    width: 95%;
+    border-left: white solid;
+    margin-bottom: 10px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    padding-left: 5px;
+    height: 17%;
+    height: auto;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 17%;
+    padding-left: 5px;
+}
+
+.one_section {
+    display: flex;
+    flex-direction: column;
+    width: 66vw;
+    
+    background-image: url(image/fond_blanc.png);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.exp_diplo {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.exp {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 10px;
+    border-left-style: groove;
+    padding-left: 10px;
+}
+
+.titre_exp {
+}
+
+.diplo {
+    width: 50%;
+    margin-left: 10px;
+    margin-left: 10px;
+    border-left-style: groove;
+    padding-left: 10px;
+}
+
+.just_exp {
+    margin-top: 10px;
+
+}
+
+.separation {
+    display: flex;
+    flex-direction: column;
+}
+.exp_text{
+    display:flex;
+    flex-direction: row;
+}
+.exp_seul{
+    width: 50%;
+}
+.sepa_exp_fm {
+    width: 50%;
+}
+.titre_exp{
+    background-image: url(image/fond_header.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: aliceblue;
+    width: 75%;
+    text-align: center;
+    border-radius: 20%;
+
+}
+
+.sepa_exp_artisa {
+    width: 50%;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.langues_competences {
+    display: flex;
+    flex-direction: row;
+}
+
+.langues {
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+}
+
+.francais_anglais {
+    display: flex;
+    flex-direction: column;
+}
+
+.competences {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.skills {
+    display: flex;
+    flex-direction: row;
+}
+
+.hardskills {
+    width: 50%;
+}
+
+.liste_h {
+    display: flex;
+    flex-direction: row;
+}
+
+.c {
+    width: 50%;
+}
+
+.html {
+    width: 50%;
+}
+
+.softskills {
+    width: 50%;
+}
+
+.liste_s {
+    display: flex;
+    flex-direction: row;
+}
+
+.TeamWork {
+    width: 33%;
+}
+
+.Sens {
+    width: 33%;
+}
+
+.Esprit {
+    width: 33%;
+}
+
+.loisir {
+    display: flex;
+    flex-direction: row;
+    border: solid blue;
+
+}
+
+.loisir_seul {
+    width: 15%;
+
+
+}
+
+.liste_l {
+    display: flex;
+    width: 85%;
+    flex-direction: row;
+}
+
+.jeux {
+    width: 33%;
+}
+
+.moto {
+    width: 33%;
+}
+
+.serie {
+    width: 33%;
+}
+h4{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+h5{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
